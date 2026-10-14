@@ -1,0 +1,11 @@
+src/Main.java
+src/com/aitu/sdp/media/AudioMetadata.java
+src/com/aitu/sdp/media/PcmAudio.java
+src/com/aitu/sdp/media/MetadataReader.java
+src/com/aitu/sdp/media/PcmDecoder.java
+src/com/aitu/sdp/media/AudioMixer.java
+src/com/aitu/sdp/media/EncodingProfile.java
+src/com/aitu/sdp/media/CodecFactory.java
+src/com/aitu/sdp/media/AudioEncoder.java
+src/com/aitu/sdp/media/ConversionException.java
+src/com/aitu/sdp/media/MediaConversionFacade.java

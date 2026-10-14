@@ -1,0 +1,9 @@
+* text=auto
+*.java text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.puml text eol=lf
+*.wav binary
+*.au binary
+*.pdf binary
+*.png binary
