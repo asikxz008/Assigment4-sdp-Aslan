@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="750" height="414" preserveAspectRatio="xMinYMin meet" viewBox="0 0 750 414" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="750" height="414"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-414)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="315" width="148" height="73" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="53.20654296875" y="375" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,750) scale(1,-1)">&lt;&lt;Client&gt;&gt;</text>
+			<text x="62.61083984375" y="360" style="font-family: Arial-Bold; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,720) scale(1,-1)">Main</text>
+			<path d="M 0,352 L 148,352 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="7" y="338" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,676) scale(1,-1)">+ main(args: String[]): void</text>
+			<text x="7" y="325" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,650) scale(1,-1)">  {static}</text>
+			<rect x="230" y="259" width="300" height="146" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="355.8966064453125" y="392" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,784) scale(1,-1)">&lt;&lt;Facade&gt;&gt;</text>
+			<text x="321.09375" y="377" style="font-family: Arial-Bold; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,754) scale(1,-1)">MediaConversionFacade</text>
+			<path d="M 230,369 L 530,369 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<path d="M 230,297 L 530,297 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="237" y="355" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,710) scale(1,-1)">- metadataReader: MetadataReader</text>
+			<text x="237" y="342" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,684) scale(1,-1)">- codecFactory: CodecFactory</text>
+			<text x="237" y="329" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,658) scale(1,-1)">- decoder: PcmDecoder</text>
+			<text x="237" y="316" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,632) scale(1,-1)">- mixer: AudioMixer</text>
+			<text x="237" y="303" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,606) scale(1,-1)">- encoder: AudioEncoder</text>
+			<text x="237" y="285" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,570) scale(1,-1)">+ convert(fileName: String,</text>
+			<text x="237" y="272" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,544) scale(1,-1)">    targetFormat: String): Path</text>
+			<path d="M 148,351 L 230,351 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8; stroke-dasharray: 4, 3;"/>
+			<path d="M 222,355 L 230,351 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 222,347 L 230,351 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="160" y="362" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,724) scale(1,-1)">uses convert</text>
+			<rect x="0" y="82" width="138" height="122" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="38.050537109375" y="191" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,382) scale(1,-1)">&lt;&lt;Subsystem&gt;&gt;</text>
+			<text x="30.37451171875" y="176" style="font-family: Arial-Bold; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,352) scale(1,-1)">MetadataReader</text>
+			<path d="M 0,168 L 138,168 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="7" y="154" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,308) scale(1,-1)">+ read(input: Path)</text>
+			<text x="7" y="141" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,282) scale(1,-1)">    : AudioMetadata</text>
+			<polygon points="250 259, 246 253, 250 247, 254 253" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<path d="M 250,247 L 69,216 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 69,216 L 69,204 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 65,212 L 69,204 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 73,212 L 69,204 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="76" y="213" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,426) scale(1,-1)">1</text>
+			<text x="255" y="241" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,482) scale(1,-1)">1</text>
+			<rect x="153" y="82" width="138" height="122" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="191.050537109375" y="191" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,382) scale(1,-1)">&lt;&lt;Subsystem&gt;&gt;</text>
+			<text x="188.65771484375" y="176" style="font-family: Arial-Bold; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,352) scale(1,-1)">CodecFactory</text>
+			<path d="M 153,168 L 291,168 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="160" y="154" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,308) scale(1,-1)">+ forFormat(</text>
+			<text x="160" y="141" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,282) scale(1,-1)">    targetFormat: String)</text>
+			<text x="160" y="128" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,256) scale(1,-1)">    : EncodingProfile</text>
+			<polygon points="310 259, 306 253, 310 247, 314 253" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<path d="M 310,247 L 222,216 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 222,216 L 222,204 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 218,212 L 222,204 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 226,212 L 222,204 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="229" y="213" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,426) scale(1,-1)">1</text>
+			<text x="315" y="241" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,482) scale(1,-1)">1</text>
+			<rect x="306" y="82" width="138" height="122" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="344.050537109375" y="191" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,382) scale(1,-1)">&lt;&lt;Subsystem&gt;&gt;</text>
+			<text x="344.43115234375" y="176" style="font-family: Arial-Bold; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,352) scale(1,-1)">PcmDecoder</text>
+			<path d="M 306,168 L 444,168 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="313" y="154" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,308) scale(1,-1)">+ decode(input: Path,</text>
+			<text x="313" y="141" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,282) scale(1,-1)">    metadata: AudioMetadata)</text>
+			<text x="313" y="128" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,256) scale(1,-1)">    : PcmAudio</text>
+			<polygon points="370 259, 366 253, 370 247, 374 253" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<path d="M 370,247 L 375,216 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 375,216 L 375,204 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 371,212 L 375,204 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 379,212 L 375,204 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="382" y="213" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,426) scale(1,-1)">1</text>
+			<text x="375" y="241" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,482) scale(1,-1)">1</text>
+			<rect x="459" y="82" width="138" height="122" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="497.050537109375" y="191" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,382) scale(1,-1)">&lt;&lt;Subsystem&gt;&gt;</text>
+			<text x="500.77587890625" y="176" style="font-family: Arial-Bold; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,352) scale(1,-1)">AudioMixer</text>
+			<path d="M 459,168 L 597,168 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="466" y="154" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,308) scale(1,-1)">+ toMono(source: PcmAudio)</text>
+			<text x="466" y="141" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,282) scale(1,-1)">    : PcmAudio</text>
+			<polygon points="430 259, 426 253, 430 247, 434 253" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<path d="M 430,247 L 528,216 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 528,216 L 528,204 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 524,212 L 528,204 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 532,212 L 528,204 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="535" y="213" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,426) scale(1,-1)">1</text>
+			<text x="435" y="241" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,482) scale(1,-1)">1</text>
+			<rect x="612" y="82" width="138" height="122" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="650.050537109375" y="191" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,382) scale(1,-1)">&lt;&lt;Subsystem&gt;&gt;</text>
+			<text x="646.83251953125" y="176" style="font-family: Arial-Bold; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,352) scale(1,-1)">AudioEncoder</text>
+			<path d="M 612,168 L 750,168 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="619" y="154" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,308) scale(1,-1)">+ write(audio: PcmAudio,</text>
+			<text x="619" y="141" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,282) scale(1,-1)">    profile: EncodingProfile,</text>
+			<text x="619" y="128" style="font-family: Arial; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,256) scale(1,-1)">    output: Path): Path</text>
+			<polygon points="490 259, 486 253, 490 247, 494 253" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<path d="M 490,247 L 681,216 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 681,216 L 681,204 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 677,212 L 681,204 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 685,212 L 681,204 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="688" y="213" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,426) scale(1,-1)">1</text>
+			<text x="495" y="241" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,482) scale(1,-1)">1</text>
+			<text x="0" y="50" style="font-family: Arial; font-size: 9.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,100) scale(1,-1)">Dashed arrow: client dependency. Filled diamond and solid arrow: owned collaborator with navigability.</text>
+			<text x="0" y="33" style="font-family: Arial; font-size: 9.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,66) scale(1,-1)">Each facade owns one instance of each subsystem. There are no arrows from subsystems back to the facade.</text>
+			<text x="0" y="16" style="font-family: Arial; font-size: 9.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,32) scale(1,-1)">Signatures name data carriers; AudioMetadata, PcmAudio, EncodingProfile and ConversionException are omitted.</text>
+		</g>
+	</g>
+</svg>

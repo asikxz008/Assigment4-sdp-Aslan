@@ -3,3 +3,5 @@ build/
 *.class
 .idea/
 *.iml
+samples/*-converted.wav
+samples/*-converted.au

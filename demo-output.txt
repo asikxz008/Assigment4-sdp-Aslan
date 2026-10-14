@@ -1,0 +1,4 @@
+Facade demo: real stereo PCM -> mono WAV and AU
+SUCCESS: stereo-converted.wav
+SUCCESS: stereo-converted.au
+EXPECTED ERROR: Cannot convert 'samples/stereo.wav' to 'mp3': Unsupported target format: mp3; supported formats: wav, au

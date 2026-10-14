@@ -1,0 +1,43 @@
+@startuml
+!pragma layout smetana
+skinparam monochrome true
+skinparam classAttributeIconSize 0
+hide empty members
+class Main <<Client>> {
+  +{static} main(args: String[]): void
+}
+class MediaConversionFacade <<Facade>> {
+  -metadataReader: MetadataReader
+  -codecFactory: CodecFactory
+  -decoder: PcmDecoder
+  -mixer: AudioMixer
+  -encoder: AudioEncoder
+  +convert(fileName: String, targetFormat: String): Path
+}
+class MetadataReader <<Subsystem>> {
+  +read(input: Path): AudioMetadata
+}
+class CodecFactory <<Subsystem>> {
+  +forFormat(targetFormat: String): EncodingProfile
+}
+class PcmDecoder <<Subsystem>> {
+  +decode(input: Path, metadata: AudioMetadata): PcmAudio
+}
+class AudioMixer <<Subsystem>> {
+  +toMono(source: PcmAudio): PcmAudio
+}
+class AudioEncoder <<Subsystem>> {
+  +write(audio: PcmAudio, profile: EncodingProfile, output: Path): Path
+}
+Main ..> MediaConversionFacade : uses convert
+MediaConversionFacade "1" *--> "1" MetadataReader : metadataReader
+MediaConversionFacade "1" *--> "1" CodecFactory : codecFactory
+MediaConversionFacade "1" *--> "1" PcmDecoder : decoder
+MediaConversionFacade "1" *--> "1" AudioMixer : mixer
+MediaConversionFacade "1" *--> "1" AudioEncoder : encoder
+note bottom of AudioMixer
+  Pattern participants are shown.
+  Value types and ConversionException are omitted.
+  Subsystems never depend on MediaConversionFacade.
+end note
+@enduml

@@ -1,0 +1,15 @@
+T1 stereo WAV -> mono WAV PASS
+T2 stereo WAV -> mono AU and big-endian samples PASS
+T3 AU -> WAV preserves mono samples PASS
+T4 original input bytes unchanged PASS
+T5 target format is case-insensitive PASS
+T6 unsupported target retains cause and creates no output PASS
+T7 missing input fails PASS
+T8 malformed input fails PASS
+T9 truncated PCM is rejected PASS
+T10 advanced client uses subsystem directly PASS
+T11 write failure leaves existing destination and no temporary file PASS
+T12 mono input and repeated conversion preserve samples PASS
+T13 blank and null arguments fail through the public API PASS
+T14 audio model cannot be mutated through arrays PASS
+SUMMARY: 14/14 PASS
